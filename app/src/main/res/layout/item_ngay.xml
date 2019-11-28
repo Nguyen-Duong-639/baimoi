@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_60sdp"
+    android:layout_height="@dimen/_125sdp"
+    android:layout_marginLeft="@dimen/_1sdp"
+    android:layout_marginRight="@dimen/_1sdp"
+    android:background="@drawable/vuongtrong"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/thu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/white"/>
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/rain_drop" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/statusitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/ndmin"
+                android:text="18"
+                android:textSize="@dimen/_13sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_toRightOf="@id/ndmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="o"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8sdp"/>
+            <TextView
+                android:layout_toRightOf="@id/ndmin"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="~"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_21sdp">
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/ndmax"
+                android:text="18"
+                android:textSize="@dimen/_13sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_toRightOf="@id/ndmax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="o"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8sdp"/>
+            <TextView
+                android:layout_toRightOf="@id/ndmax"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

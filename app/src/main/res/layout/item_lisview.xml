@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_78sdp"
+    android:background="@drawable/vuongtrong"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Tvtimehistory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="06:03"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17sdp" />
+
+                <TextView
+                    android:id="@+id/Tvdayandmonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Tvtimehistory"
+                    android:layout_gravity="center"
+                    android:text="6/3/2019"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_17sdp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Tvhistoryname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Hà Nội"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_25sdp" />
+
+                <TextView
+                    android:id="@+id/Tvtrangthaitt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Nắng"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Tvhistorynhietdo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="25"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_34sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="o"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:id="@+id/Tvccc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="C"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_34sdp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
